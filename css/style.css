@@ -1,0 +1,180 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.header_navbar
+{
+    height: 60px;
+    background-color: #000;
+    /* width: ; */
+    color: white;
+    overflow: auto;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar_logo
+{
+    height: 50px;
+    width: 100px;
+    /* margin-top: 1px; */
+}
+.logo
+{
+    background-image: url(../logo/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    
+    /* background-repeat: no-repeat; */
+}
+
+
+.border:hover
+{
+    border: 1px solid white;
+}
+
+/* box 2 */
+.add_first
+{
+    color: #cccccc;
+    font-size: 1rem;
+    /* margin-top: 10px; */
+    margin-left: 15px;
+}
+.add_second{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.nav_address_icon{
+    display: flex;
+    align-items: center;
+}
+
+/* nav_search */
+.nav_search
+{
+    /* background-color: pink; */
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.nav_search:hover{
+    border: 2px solid orange;
+    border-radius: 6.5px;
+}
+.search_select
+{
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    border: none;
+
+}
+.search_input
+{
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search_icon
+{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(255, 191, 0);
+    color: #000;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+/* box 4 (sign in) */
+.sign_in
+{
+    font-style: "Amazon Ember";
+    width: 135px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+    
+}
+.sign_first
+{
+    font-size: 12px;
+    font: white;
+    
+}
+.sign_list
+{
+    background-color: #000;
+    /* font: white; */
+    color: white;
+    font-weight: 700;
+}
+
+/* box 4 return*/
+
+/* box 5 cart */
+.nav_cart{
+    display: flex;
+    align-items: center;
+}
+.nav_cart i{
+    font-size: 30px;
+}
+.nav_cart p{
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+/* PANEL */
+
+.panel
+{
+    background-color: rgb(30, 30, 62);
+    color: #fff;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+
+/* box1 */
+.panel_3-
+{
+    display: flex;
+    align-items: center;
+}
+.panel_3- p{
+    margin: 2px;
+}
+/* box 2 options */
+.panel_options
+{
+    display: flex;
+    width: 70%;
+}
+.panel_options p{
+    margin: 4px;
+}
+/* box 3 misclaneous */
+.panel_misc
+{
+    font-weight: 700;
+}
